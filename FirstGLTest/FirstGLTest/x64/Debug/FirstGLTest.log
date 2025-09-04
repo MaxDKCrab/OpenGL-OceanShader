@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\nonEngineProj\OpenGL\FirstGLTest\FirstGLTest\main.cpp(284,25): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\FirstGLTest\FirstGLTest\main.cpp(498,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\FirstGLTest\FirstGLTest\main.cpp(705,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\FirstGLTest\FirstGLTest\main.cpp(744,47): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\FirstGLTest\FirstGLTest\main.cpp(797,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\FirstGLTest\FirstGLTest\main.cpp(798,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\FirstGLTest\FirstGLTest\main.cpp(803,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\FirstGLTest\FirstGLTest\main.cpp(804,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\FirstGLTest\FirstGLTest\main.cpp(805,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\FirstGLTest\FirstGLTest\main.cpp(806,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  FirstGLTest.vcxproj -> C:\nonEngineProj\OpenGL\FirstGLTest\x64\Debug\FirstGLTest.exe

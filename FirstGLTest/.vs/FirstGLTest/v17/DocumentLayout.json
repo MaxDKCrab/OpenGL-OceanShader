@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|solutionrelative:FirstGLTest\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\fragShader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|solutionrelative:FirstGLTest\\Shaders\\fragShader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\vertShader.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|solutionrelative:FirstGLTest\\Shaders\\vertShader.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\texVertShader.vert||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|solutionrelative:FirstGLTest\\Shaders\\texVertShader.vert||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\CAMERA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|solutionrelative:FirstGLTest\\CAMERA.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\texFragShader.frag||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|solutionrelative:FirstGLTest\\Shaders\\texFragShader.frag||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\SHADER.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|solutionrelative:FirstGLTest\\SHADER.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\imageLibrary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CA3F29EE-72AE-454A-9309-29553D428E3B}|FirstGLTest\\FirstGLTest.vcxproj|solutionrelative:FirstGLTest\\imageLibrary.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Max.Kent\\Downloads\\stb_image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CAMERA.h",
+              "DocumentMoniker": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\CAMERA.h",
+              "RelativeDocumentMoniker": "FirstGLTest\\CAMERA.h",
+              "ToolTip": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\CAMERA.h",
+              "RelativeToolTip": "FirstGLTest\\CAMERA.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-03T08:38:21.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "texFragShader.frag",
+              "DocumentMoniker": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\texFragShader.frag",
+              "RelativeDocumentMoniker": "FirstGLTest\\Shaders\\texFragShader.frag",
+              "ToolTip": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\texFragShader.frag",
+              "RelativeToolTip": "FirstGLTest\\Shaders\\texFragShader.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-27T14:06:34.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "fragShader.frag",
+              "DocumentMoniker": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\fragShader.frag",
+              "RelativeDocumentMoniker": "FirstGLTest\\Shaders\\fragShader.frag",
+              "ToolTip": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\fragShader.frag",
+              "RelativeToolTip": "FirstGLTest\\Shaders\\fragShader.frag",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-27T13:08:19.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "texVertShader.vert",
+              "DocumentMoniker": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\texVertShader.vert",
+              "RelativeDocumentMoniker": "FirstGLTest\\Shaders\\texVertShader.vert",
+              "ToolTip": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\texVertShader.vert",
+              "RelativeToolTip": "FirstGLTest\\Shaders\\texVertShader.vert",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-27T14:04:12.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "vertShader.vert",
+              "DocumentMoniker": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\vertShader.vert",
+              "RelativeDocumentMoniker": "FirstGLTest\\Shaders\\vertShader.vert",
+              "ToolTip": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\Shaders\\vertShader.vert",
+              "RelativeToolTip": "FirstGLTest\\Shaders\\vertShader.vert",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-27T13:07:47.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "imageLibrary.cpp",
+              "DocumentMoniker": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\imageLibrary.cpp",
+              "RelativeDocumentMoniker": "FirstGLTest\\imageLibrary.cpp",
+              "ToolTip": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\imageLibrary.cpp",
+              "RelativeToolTip": "FirstGLTest\\imageLibrary.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-27T13:45:21.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "stb_image.h",
+              "DocumentMoniker": "C:\\Users\\Max.Kent\\Downloads\\stb_image.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\Max.Kent\\Downloads\\stb_image.h",
+              "ToolTip": "C:\\Users\\Max.Kent\\Downloads\\stb_image.h",
+              "RelativeToolTip": "..\\..\\..\\Users\\Max.Kent\\Downloads\\stb_image.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-27T13:43:34.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SHADER.h",
+              "DocumentMoniker": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\SHADER.h",
+              "RelativeDocumentMoniker": "FirstGLTest\\SHADER.h",
+              "ToolTip": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\SHADER.h",
+              "RelativeToolTip": "FirstGLTest\\SHADER.h",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAH0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-08-27T11:35:45.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\main.cpp",
+              "RelativeDocumentMoniker": "FirstGLTest\\main.cpp",
+              "ToolTip": "C:\\nonEngineProj\\OpenGL\\FirstGLTest\\FirstGLTest\\main.cpp",
+              "RelativeToolTip": "FirstGLTest\\main.cpp",
+              "ViewState": "AgIAADECAAAAAAAAAAAAAD8CAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-08-26T11:48:45.915Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
