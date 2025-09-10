@@ -1,5 +1,15 @@
 ﻿  main.cpp
-C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(199,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(224,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(303,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(55,62): warning C4305: 'argument': truncation from 'double' to '_Ty'
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(55,62): warning C4305:         with
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(55,62): warning C4305:         [
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(55,62): warning C4305:             _Ty=float
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(55,62): warning C4305:         ]
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(55,57): warning C4305: 'argument': truncation from 'double' to '_Ty'
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(55,57): warning C4305:         with
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(55,57): warning C4305:         [
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(55,57): warning C4305:             _Ty=float
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(55,57): warning C4305:         ]
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(244,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(276,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\nonEngineProj\OpenGL\Waves1\Waves1\main.cpp(355,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   Waves1.vcxproj -> C:\nonEngineProj\OpenGL\Waves1\x64\Debug\Waves1.exe

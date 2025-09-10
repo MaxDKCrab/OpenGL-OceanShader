@@ -2,6 +2,8 @@
 #include <GLFW/glfw3.h>
 #include "SHADER.h"
 #include "CAMERA.h"
+#include <random>
+#include <vector>
 #include <iostream>
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -14,9 +16,10 @@ void mouse_callback(GLFWwindow* window, double xposIn, double yposIn);
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
 
 //settings
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
-const unsigned int planeWidth = 100;
+const unsigned int SCR_WIDTH = 1400;
+const unsigned int SCR_HEIGHT = 800;
+const unsigned int planeWidth = 500;
+const unsigned int waveCount = 500;
 
 //camera
 Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
@@ -29,6 +32,47 @@ float lastFrame = 0.0f; // Time of last frame
 
 //lighting
 glm::vec3 lightPos(0, 4, -10);
+
+
+//plane generation
+float vertices[planeWidth * planeWidth * 6 * 3];
+
+float quadLength = 2 / (float)planeWidth;
+
+float lowEnd = -1;
+
+float xOffset = lowEnd;
+float zOffset = lowEnd;
+
+int vertIndex = 0;
+
+//WaveGeneration
+
+std::vector<glm::vec4> generateRandomWaves(size_t count) {
+    std::vector<glm::vec4> waves;
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_real_distribution<float> steepnessDist(0.1, 0.3);
+    std::uniform_real_distribution<float> waveLengthDist(20, 80);
+    std::uniform_real_distribution<float> directionDist(-100, 100);
+
+
+    for (size_t i = 0; i < count; i++)
+    {   
+
+        float steep = steepnessDist(gen);
+        float waveL = waveLengthDist(gen);
+        float directionX = directionDist(gen);
+        float directionY = directionDist(gen);
+        waves.emplace_back(directionX, directionY, steep, waveL);
+
+    }
+
+    return waves;
+}
+
+
+
 
 
 int main() {
@@ -75,16 +119,7 @@ int main() {
     glGenVertexArrays(1, &VAO);
     glBindVertexArray(VAO);
 
-    float vertices[planeWidth*planeWidth*6 * 3];
 
-    float quadLength = 2 / (float)planeWidth;
-
-    float lowEnd = -1;
-
-    float xOffset = lowEnd;
-    float zOffset = lowEnd;
-        
-    int vertIndex = 0;
 
     for (size_t i = 0; i < planeWidth; i++)
     {
@@ -190,6 +225,16 @@ int main() {
     
     waveShader.use();
 
+    std::vector<glm::vec4> waves = generateRandomWaves((size_t)waveCount);
+
+    for (size_t i = 0; i < (size_t)waveCount; i++)
+    {
+        std::string name = "waves[" + std::to_string(i) + "]";
+        //glUniform4f(glGetUniformLocation(waveShader.ID, name.c_str()),waves[i].x,waves[i].y,waves[i].z,waves[i].w);
+
+        waveShader.setVec4(name.c_str(), waves[i]);
+    }
+
 //RENDER LOOP
     while (!glfwWindowShouldClose(window))
     {
@@ -207,17 +252,24 @@ int main() {
 
         waveShader.setVec3("objectColor", 0.05f, 0.36f, 0.61f);
         waveShader.setVec3("lightColor", 1.0f, 1.0f, 1.0f);
+        waveShader.setVec3("lightPos", lightPos);
+        waveShader.setVec3("viewPos", camera.Position);
+        
 
         glm::mat4 model = glm::mat4(1.0f);
         model = glm::translate(model, glm::vec3(0.0,-1.0,0.0));
-        model = glm::scale(model, glm::vec3(50.0f));
+        model = glm::scale(model, glm::vec3(50));
        // model = glm::rotate(model, glm::radians(45.0f), glm::vec3(0.0f, 1.0f, 0.0f));
         glm::mat4 view;
         view = camera.GetViewMatrix();
         glm::mat4 projection;
         projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 10000.0f);
        
-        
+        //TO FIGURE OUT
+        //I generate a normal matrix by casting my model matrix into a 3x3 and taking the transpose inverse of it
+        //This breaks my diffuse lighting; more comments in my vertex shader
+        //glm::mat3 normalMatrix = glm::transpose(glm::inverse(glm::mat3(model)));
+        //waveShader.setM3("normalMatrix", normalMatrix);
         waveShader.setM4("model", model); //to world space
         waveShader.setM4("view", view); //to view space
         waveShader.setM4("projection", projection); //to clip space
@@ -227,7 +279,7 @@ int main() {
 
         glDrawArrays(GL_TRIANGLES, 0, planeWidth * planeWidth * 6);
 
-        //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+       //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
 
         lightShader.use();
 
